@@ -22,7 +22,7 @@ public:
     {doors=numDoors;}
     int getDoors () const
     {return doors;}
-    void displayInfo();
+    void displayInfo() const;
 };
 
 #endif /* Car_hpp */

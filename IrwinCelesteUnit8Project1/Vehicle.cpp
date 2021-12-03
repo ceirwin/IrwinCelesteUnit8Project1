@@ -12,6 +12,7 @@ using namespace std;
 
 void Vehicle::displayInfo () const
 {
+    cout<<endl <<"Vehicle Information: ";
     cout<<endl <<"Manufacturer: " <<manufacturer;
     cout<<endl <<"Year Built: " <<yearBuilt;
 }

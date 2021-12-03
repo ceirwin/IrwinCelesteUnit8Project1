@@ -6,3 +6,12 @@
 //
 
 #include "Car.hpp"
+#include <iostream>
+
+using namespace std;
+
+void Car::displayInfo() const
+{
+    Vehicle::displayInfo();
+    cout<<endl <<"Doors: " <<doors;
+}
