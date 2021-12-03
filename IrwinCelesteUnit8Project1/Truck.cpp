@@ -6,3 +6,10 @@
 //
 
 #include "Truck.hpp"
+#include <iostream>
+
+void Truck::displayInfo() const
+{
+    Vehicle::displayInfo();
+    cout<<endl <<"Towing capacity: " <<towCap;
+}
