@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include "Vehicle.hpp"
 
-class Car : private Vehicle
+class Car : public Vehicle
 {
 private:
     int doors;

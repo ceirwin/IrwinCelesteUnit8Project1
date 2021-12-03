@@ -13,7 +13,7 @@
 
 using namespace std;
 
-class Truck : private Vehicle
+class Truck : public Vehicle
 {
 private:
     int towCap;
