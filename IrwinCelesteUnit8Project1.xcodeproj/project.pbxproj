@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F47CE052759C81C003BA9A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CE042759C81C003BA9A4 /* main.cpp */; };
+		9F47CE0D2759CC83003BA9A4 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CE0B2759CC83003BA9A4 /* Vehicle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9F47CE012759C81C003BA9A4 /* IrwinCelesteUnit8Project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IrwinCelesteUnit8Project1; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F47CE042759C81C003BA9A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9F47CE0B2759CC83003BA9A4 /* Vehicle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		9F47CE0C2759CC83003BA9A4 /* Vehicle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vehicle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9F47CE042759C81C003BA9A4 /* main.cpp */,
+				9F47CE0B2759CC83003BA9A4 /* Vehicle.cpp */,
+				9F47CE0C2759CC83003BA9A4 /* Vehicle.hpp */,
 			);
 			path = IrwinCelesteUnit8Project1;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F47CE0D2759CC83003BA9A4 /* Vehicle.cpp in Sources */,
 				9F47CE052759C81C003BA9A4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
