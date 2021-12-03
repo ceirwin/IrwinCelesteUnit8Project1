@@ -16,6 +16,7 @@
 
 using namespace std;
 
+//testing functionality of Vehicle, Car, and Truck classes
 int main(int argc, const char * argv[])
 {
     Vehicle newVehicle;
