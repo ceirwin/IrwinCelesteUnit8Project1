@@ -31,7 +31,7 @@ public:
     {return manufacturer;}
     int getYearBuilt() const
     {return yearBuilt;}
-    void displayInfo ();
+    void displayInfo () const;
 };
 
 #endif /* Vehicle_hpp */

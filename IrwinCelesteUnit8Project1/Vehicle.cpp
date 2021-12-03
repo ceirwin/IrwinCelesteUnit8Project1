@@ -6,3 +6,12 @@
 //
 
 #include "Vehicle.hpp"
+#include <iostream>
+
+using namespace std;
+
+void Vehicle::displayInfo () const
+{
+    cout<<endl <<"Manufacturer: " <<manufacturer;
+    cout<<endl <<"Year Built: " <<yearBuilt;
+}
