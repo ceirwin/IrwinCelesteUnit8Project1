@@ -10,6 +10,7 @@
 		9F47CE052759C81C003BA9A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CE042759C81C003BA9A4 /* main.cpp */; };
 		9F47CE0D2759CC83003BA9A4 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CE0B2759CC83003BA9A4 /* Vehicle.cpp */; };
 		9F47CE102759D11D003BA9A4 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CE0E2759D11D003BA9A4 /* Car.cpp */; };
+		9F47CE132759D43B003BA9A4 /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F47CE112759D43B003BA9A4 /* Truck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		9F47CE0C2759CC83003BA9A4 /* Vehicle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vehicle.hpp; sourceTree = "<group>"; };
 		9F47CE0E2759D11D003BA9A4 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
 		9F47CE0F2759D11D003BA9A4 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		9F47CE112759D43B003BA9A4 /* Truck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
+		9F47CE122759D43B003BA9A4 /* Truck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Truck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				9F47CE042759C81C003BA9A4 /* main.cpp */,
 				9F47CE0B2759CC83003BA9A4 /* Vehicle.cpp */,
 				9F47CE0E2759D11D003BA9A4 /* Car.cpp */,
+				9F47CE112759D43B003BA9A4 /* Truck.cpp */,
+				9F47CE122759D43B003BA9A4 /* Truck.hpp */,
 				9F47CE0F2759D11D003BA9A4 /* Car.hpp */,
 				9F47CE0C2759CC83003BA9A4 /* Vehicle.hpp */,
 			);
@@ -131,6 +136,7 @@
 				9F47CE102759D11D003BA9A4 /* Car.cpp in Sources */,
 				9F47CE0D2759CC83003BA9A4 /* Vehicle.cpp in Sources */,
 				9F47CE052759C81C003BA9A4 /* main.cpp in Sources */,
+				9F47CE132759D43B003BA9A4 /* Truck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
