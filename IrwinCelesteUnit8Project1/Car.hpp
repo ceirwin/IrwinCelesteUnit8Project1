@@ -18,6 +18,8 @@ private:
 public:
     Car()
     {doors=0;}
+    Car(int door, string man, int year) : Vehicle(man,year)
+    {doors=door;}
     void setDoors (int numDoors)
     {doors=numDoors;}
     int getDoors () const

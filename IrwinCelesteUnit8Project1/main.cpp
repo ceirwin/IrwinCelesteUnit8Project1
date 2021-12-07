@@ -19,9 +19,6 @@ using namespace std;
 //testing functionality of Vehicle, Car, and Truck classes
 int main(int argc, const char * argv[])
 {
-    Vehicle newVehicle;
-    Car newCar;
-    Truck newTruck;
     string man;
     int year, doors, cap;
     
@@ -31,8 +28,7 @@ int main(int argc, const char * argv[])
     getline(cin, man);
     cout<<"Enter the year built: ";
     cin>>year;
-    newVehicle.setManufacturer(man);
-    newVehicle.setYearBuilt(year);
+    Vehicle newVehicle(man, year);
     newVehicle.displayInfo();
     
     cout<<endl <<endl <<"Car: ";
@@ -43,9 +39,7 @@ int main(int argc, const char * argv[])
     cin>>year;
     cout<<"Enter the number of doors: ";
     cin>>doors;
-    newCar.setManufacturer(man);
-    newCar.setYearBuilt(year);
-    newCar.setDoors(doors);
+    Car newCar(doors, man, year);
     newCar.displayInfo();
     
     cout<<endl <<endl <<"Truck: ";
@@ -56,9 +50,7 @@ int main(int argc, const char * argv[])
     cin>>year;
     cout<<"Enter the towing capacity: ";
     cin>>cap;
-    newTruck.setManufacturer(man);
-    newTruck.setYearBuilt(year);
-    newTruck.setTowCap(cap);
+    Truck newTruck(cap, man, year);
     newTruck.displayInfo();
     
     return 0;

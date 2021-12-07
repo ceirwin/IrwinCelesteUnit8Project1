@@ -20,6 +20,8 @@ private:
 public:
     Truck()
     {towCap=0;}
+    Truck(int tow, string man, int year) : Vehicle(man,year)
+    {towCap=tow;}
     void setTowCap (int cap)
     {towCap=cap;}
     int getTowCap () const
